@@ -1,0 +1,46 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+    padding: 0;
+}
+
+.spcial-color {
+    color: orangered;
+}
+
+section {
+    display: flex;
+}
+
+.hero-area {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 45px 0px;
+}
+
+.half {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.half img {
+    width: 60%;
+}
+
+.button {
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: orangered;
+    border-radius: 5%;
+    color: white;
+    background-image: linear-gradient(orange, red);
+    font-weight: 400;
+
+}
