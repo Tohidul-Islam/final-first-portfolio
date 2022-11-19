@@ -14,7 +14,7 @@ h1 {
     color: orangered;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 5rem;
 }
@@ -51,4 +51,42 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience {
+    padding-left: 5%;
+    padding-right: 5%;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.skills {
+    width: 50%;
+    padding: 25px 25px;
+    margin: 15px;
+    box-shadow: 5px 5px 25px gray;
+}
+
+#web {
+    border-image: linear-gradient(orange, red);
+    border-image-slice: 2;
+    border-left: 7px solid;
+
+}
+
+#ecommerce {
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 2;
+    border-left: 7px solid;
+
+}
+
+.skills h4 {
+    color: orangered;
+}
+
+footer p {
+    text-align: center;
+    padding: 10px;
 }
